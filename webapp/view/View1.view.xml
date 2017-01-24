@@ -1,0 +1,9 @@
+<mvc:View contollerName="sap.ui.bootcampWebapp.controller.View1" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+<VBox>
+	<Text text="UserName"/>
+	<Input type="Text" width="20%"/>
+	<Text text="Password"/>
+	<Input type="Password" width="20%"/>
+	<Button text="Login" press="onLoginPress"/>
+</VBox>	
+</mvc:View>
